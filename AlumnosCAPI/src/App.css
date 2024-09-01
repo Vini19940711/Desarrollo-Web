@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 7rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 4); /* Sombra para darle un efecto de profundidad */
+  border-radius: 30px; /* Bordes redondeados */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-image: url("https://in3.umg.edu.gt/images/logoumg2.png");*/
+  background-size: cover;
+  color: hsl(0, 0%, 76%);
+}
+
+label {
+  font-size: 15px;
+  padding: 2px;
+  color: rgb(5, 5, 5);
+  font-style: initial;
+  background-color: rgb(255, 255, 255);
+}
+
+input {
+  width: 250px;
+  height: 20px;
+  margin-left: 15px;
+  background-color: rgba(226, 226, 226, 0.549);
+  color: black;
+  border-radius: 30px;
+  border: none; /* Sin borde en los botones */
+}
+
+button {
+  border-radius: 80px; /* Mantiene las esquinas redondeadas de los botones */
+  margin-left: 40px; /* Mantiene el margen izquierdo de 20 píxeles */
+  background-color: #5ebdf5; /* Cambia el color de fondo del botón a azul (Hexadecimal #007bff) */
+  color: rgb(0, 0, 0); /* Cambia el color del texto en el botón a blanco */
+  padding: 10px 20px; /* Añade un padding de 10px arriba y abajo, y 20px a los lados */
+  cursor: pointer; /* Cambia el cursor a un puntero al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Añade una transición suave al cambiar el color de fondo */
+}
+
+button:hover {
+  background-color: #fafafa; /* Cambia el color de fondo a un azul más oscuro cuando el botón es hover */
+}
+
+h1 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
